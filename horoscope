@@ -1,0 +1,130 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+    int a;
+    int b;
+    printf("lets find what is your horoscope");
+    printf("\nenter your birthday");
+    printf("\nMonth(1-12):");
+    scanf("%d", &a);
+    printf("day:");
+    scanf("%d", &b);
+
+    //december
+    if(a == 12){
+        if(b >= 22){
+            printf("horoscope:capricorn");
+        }else if (b<=21){
+            printf("horoscope:Sagittarius");
+        }
+    }
+    //January
+    if(a == 1){
+        if(b >= 20){
+            printf("horoscope:Aquarius");
+        }else if (b<=19){
+            printf("horoscope:Capricorn");
+        }
+    }
+
+     //febuary
+    if(a == 2){
+        if(b >= 19){
+            printf("horoscope:Pisces");
+        }else if (b<=18){
+            printf("horoscope:Aquarius");
+        }
+    }
+
+     //MARCH
+    if(a == 3){
+        if(b >= 21){
+            printf("horoscope:Aries");
+        }else if (b<=20){
+            printf("horoscope:Pisces");
+        }
+    }
+
+     //April
+    if(a == 4){
+        if(b >= 20){
+            printf("horoscope:Taurus");
+        }else if (b<=19){
+            printf("horoscope:Aries");
+        }
+    }
+
+    //May
+    if(a == 5){
+        if(b >= 21){
+            printf("horoscope:Gemini");
+        }else if (b<=20){
+            printf("horoscope:Taurus");
+        }
+    }
+
+    //June
+    if(a == 6){
+        if(b >= 21){
+            printf("horoscope:Cancer");
+        }else if (b<=20){
+            printf("horoscope:Gemini");
+        }
+    }
+
+    //July
+    if(a == 7){
+        if(b >= 23){
+            printf("horoscope:Leo");
+        }else if (b<=22){
+            printf("horoscope:Cancer");
+        }
+    }
+
+     //August
+    if(a == 8){
+        if(b >= 23){
+            printf("horoscope:Virgo");
+        }else if (b<=22){
+            printf("horoscope:Leo");
+        }
+    }
+
+    //September
+    if(a == 9){
+        if(b >= 23){
+            printf("horoscope:Libra");
+        }else if (b<=22){
+            printf("horoscope:Virgo");
+        }
+    }
+
+    //October
+    if(a == 10){
+        if(b >= 23){
+            printf("horoscope:Scorpio");
+        }else if (b<=22){
+            printf("horoscope:Libra");
+        }
+    }
+
+    //November
+    if(a == 11){
+        if(b >= 22){
+            printf("horoscope:Sagittarius");
+        }else if (b<=21){
+            printf("horoscope:Scorpio");
+        }
+    }
+    
+    if(a >= 13){
+        printf("we have only 12 months, try again");
+       
+}
+
+
+
+
+
+    return 0;
+}
